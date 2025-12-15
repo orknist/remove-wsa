@@ -59,6 +59,9 @@ Especially useful on **Windows 11 23H2 / 24H2** systems where WSA regressions ar
 
 ## Usage
 
-### 1. Save the script
-Save the script as:
+### 1. Open PowerShell as Administrator
 
+### 2. Run
+```powershell
+Set-ExecutionPolicy Bypass -Scope Process -Force
+.\Remove-WSA.ps1
